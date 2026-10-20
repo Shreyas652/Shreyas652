@@ -5,3 +5,4 @@ __pycache__/
 guardrail-comment.md
 guardrail-result.json
 comment.md
+.preview/

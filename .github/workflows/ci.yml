@@ -34,6 +34,12 @@ jobs:
       - name: Run unit tests
         run: python -m pytest -q
 
+      - name: Check browser code and policy contracts
+        run: |
+          node --check docs/control-room.js
+          node --check docs/game.js
+          node --test tests/control-room.test.cjs
+
       - name: Regenerate fixture widgets
         run: python .github/scripts/generate_widgets.py --fixture tests/fixtures/profile_placeholder.json
 

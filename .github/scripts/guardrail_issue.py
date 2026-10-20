@@ -76,7 +76,7 @@ def render_comment(result: Assessment) -> str:
         for finding in result.findings:
             lines.append(f"| `{finding.rule_id}` | {finding.description} | +{finding.weight} |")
     else:
-        lines.append("No current rule fired. This attempt is recorded as a bypass so the policy can improve.")
+        lines.append("No current rule fired. An allowed request is a policy-review candidate, not proof of a successful attack.")
     if result.truncated:
         lines.extend(["", "Input exceeded 8,000 characters and was truncated before evaluation."])
     lines.extend(
