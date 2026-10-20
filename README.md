@@ -1,159 +1,186 @@
-<!-- Profile README for github.com/Shreyas652. This file must live in a PUBLIC repo named exactly Shreyas652/Shreyas652. -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Shreyas%20Gosavi&fontSize=56&fontAlignY=38&animation=fadeIn&desc=Founding%20AI%20Engineer%20%7C%20Tech%20Lead%20of%20AI&descAlignY=60&descSize=20" alt="Shreyas Gosavi header" width="100%"/>
+<img src="assets/header.svg" alt="Shreyas Gosavi — AI systems and security engineering" width="100%">
 
-<a href="https://github.com/Shreyas652">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&height=40&lines=Founding+AI+Engineer+%40+SquareResults;RAG+%7C+Multi-Agent+Systems+%7C+LLM+Inference;Researching+MCP+and+prompt-injection+security;Backend+APIs+with+Python+and+FastAPI" alt="Typing animation"/>
-</a>
+<img src="assets/typing.svg" alt="Animated focus areas: RAG, multi-agent systems, inference optimization, MCP security, and FastAPI" width="760">
 
-<br/>
+[Case studies](https://shreyas652.github.io/Shreyas652/) · [Break the guardrail](https://github.com/Shreyas652/Shreyas652/issues/new?template=break-my-guardrail.md) · [CI status](https://github.com/Shreyas652/Shreyas652/actions/workflows/ci.yml)
 
-<a href="https://www.linkedin.com/in/Shreyas652/"><img src="https://img.shields.io/badge/LinkedIn-Shreyas652-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<img src="https://komarev.com/ghpvc/?username=Shreyas652&label=Profile%20views&color=58a6ff&style=for-the-badge" alt="Profile views"/>
+[![Repository checks](https://github.com/Shreyas652/Shreyas652/actions/workflows/ci.yml/badge.svg)](https://github.com/Shreyas652/Shreyas652/actions/workflows/ci.yml)
 
-<br/><br/>
-
-<img src="assets/terminal.svg" alt="Animated terminal introducing Shreyas" width="760"/>
+<img src="assets/terminal.svg" alt="Animated terminal introducing Shreyas Gosavi and his current engineering focus" width="760">
 
 </div>
 
----
+## Break My Guardrail
 
-## About me
+This profile is also a small AI-security lab. Submit a prompt-injection attempt
+against a fictional vault agent. A GitHub Action returns a verdict, risk score,
+and every rule that fired—usually in under a minute.
 
-- 🚀 Founding AI Engineer and Tech Lead of AI at **SquareResults**, a pre-seed startup building AI-native platforms
-- 🧠 Building RAG systems, multi-agent architectures and LLM inference optimizations
-- 🔐 Researching how to secure MCP and AI agents, including prompt injection
-- 🏦 Earlier backend and ML work in financial services at **Wipro**, and engineering experience at **Zensar**
-- 🎓 M.S. in Information Technology, **Arizona State University**
-- 📜 Published patent for **Darshan**, AI-powered assistive glasses for visually impaired users
-<!-- TODO(Shreyas): confirm patent wording (published application vs granted) and add the number if you want it public. -->
+[**Open a prefilled challenge issue →**](https://github.com/Shreyas652/Shreyas652/issues/new?template=break-my-guardrail.md)
 
----
+The guard is deterministic: no LLM calls, configured secrets, input execution,
+or network requests based on issue text. It checks instruction overrides,
+prompt and secret exfiltration, tool execution, role hijacking, indirect
+injection, chat delimiters, Base64, escaped payloads, and hidden Unicode.
 
-## Tech stack
+<details>
+<summary>Threat model and abuse controls</summary>
 
-<div align="center">
+- Issue text is untrusted, passed through an environment variable, capped at
+  8,000 characters, normalized, and stripped of control characters.
+- The workflow never interpolates issue text into shell and never executes or
+  fetches content referenced by the text.
+- Runs are serialized. Each GitHub account gets three attempts per UTC day.
+- Only issue metadata, score, and rule IDs enter the repository. Attacker text
+  remains in the issue and cannot break README layout.
+- The implementation and rule-update process are documented in
+  [`docs/BREAK_MY_GUARDRAIL.md`](docs/BREAK_MY_GUARDRAIL.md).
 
-**Languages and backend**
+</details>
 
-<img src="https://skillicons.dev/icons?i=py,fastapi,ts,nodejs,java,js&perline=6" alt="Languages and backend"/>
+### Hall of Bypasses
 
-**Data, cloud and DevOps**
+Allowed attempts appear here. Each one becomes a regression-test candidate.
 
-<img src="https://skillicons.dev/icons?i=postgres,redis,aws,docker,kubernetes,terraform,githubactions,git&perline=8" alt="Data, cloud and DevOps"/>
-
-**AI and agents**
-
-<img src="https://img.shields.io/badge/LLM%20Applications-000000?style=for-the-badge" alt="LLM applications"/>
-<img src="https://img.shields.io/badge/RAG-0A7B83?style=for-the-badge" alt="RAG"/>
-<img src="https://img.shields.io/badge/Multi--Agent%20Systems-6f42c1?style=for-the-badge" alt="Multi-agent systems"/>
-<img src="https://img.shields.io/badge/MCP-1f6feb?style=for-the-badge" alt="MCP"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/LLM%20Inference%20Optimization-d29922?style=for-the-badge" alt="LLM inference optimization"/>
-<img src="https://img.shields.io/badge/AI%20Security-da3633?style=for-the-badge" alt="AI security"/>
-
-</div>
-<!-- TODO(Shreyas): remove any badge you could not defend in an interview. Add Convex / SQL Server only if you want them shown. -->
+<!--GUARDRAIL-START-->
+_No bypasses recorded yet._
+<!--GUARDRAIL-END-->
 
 ---
 
-## Featured projects
+<details open>
+<summary><b>I'm a recruiter — 30-second view</b></summary>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Shreyas652/support-triage-agent">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas652&repo=support-triage-agent&theme=tokyonight&hide_border=true" alt="support-triage-agent"/>
-</a>
-<br/><sub>Support ticket triage agent built on Elasticsearch Agent Builder. Hackathon submission.</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Shreyas652/FINVERSE">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas652&repo=FINVERSE&theme=tokyonight&hide_border=true" alt="FINVERSE"/>
-</a>
-<br/><sub>Finance management platform with ML-driven insights on expenses, stock trends and financial planning.</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Shreyas652/AI-Drone-Mission-Copliot">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas652&repo=AI-Drone-Mission-Copliot&theme=tokyonight&hide_border=true" alt="AI Drone Mission Copilot"/>
-</a>
-<br/><sub>AI copilot for drone mission planning, written in Python.</sub>
-<!-- TODO(Shreyas): add a one-line description to this repo on GitHub, and consider renaming "Copliot" to "Copilot". GitHub keeps redirects. -->
-</td>
-<td width="50%" valign="top">
-<b>Veyra</b> (MCP server)<br/>
-<sub>Evidence-gated financial research verification. TypeScript and Node.js, containerized with Docker. Routes claims to SEC Companyfacts evidence and uses deterministic financial calculations instead of model arithmetic.</sub>
-<!-- TODO(Shreyas): link the public repo here once it is public, and confirm SquareResults is fine with Veyra being shown. -->
-</td>
-</tr>
-</table>
+### Current role
+
+**Shreyas Gosavi** is the Founding AI Engineer and Tech Lead of AI at
+**SquareResults**, a pre-seed startup.
+
+### What I work on
+
+- Retrieval-augmented generation and multi-agent systems
+- LLM inference optimization
+- MCP and prompt-injection security
+- FastAPI backends
+
+### Background
+
+Previously at **Wipro**, working on financial-services backend and ML, and at
+**Zensar**. M.S. in Information Technology from **Arizona State University**.
+Published patent: **Darshan**, AI-powered assistive glasses for visually
+impaired users.
+
+### Contact
+
+[Start a GitHub conversation](https://github.com/Shreyas652/Shreyas652/issues/new?template=contact.md)
+
+<!-- TODO(Shreyas): add a preferred public email or confirmed professional profile URL. -->
+
+</details>
+
+<details>
+<summary><b>I'm an engineer — systems, repos, and security work</b></summary>
+
+### Engineering focus
+
+I build AI systems where retrieval, agent coordination, inference behavior,
+tool boundaries, and backend reliability can be inspected instead of hand-waved.
+The guardrail challenge above is the smallest example: bounded input,
+deterministic policy, explicit failure modes, and regression tests.
+
+### Public projects
+
+| Project | What is confirmed |
+|---|---|
+| [support-triage-agent](https://github.com/Shreyas652/support-triage-agent) | Elasticsearch Agent Builder hackathon project |
+| [FINVERSE](https://github.com/Shreyas652/FINVERSE) | Project by Shreyas Gosavi |
+| [AI-Drone-Mission-Copliot](https://github.com/Shreyas652/AI-Drone-Mission-Copliot) | Project by Shreyas Gosavi |
+| Veyra | MCP server built during OpenAI Build Week; public repository link TODO |
+
+### Profile architecture
+
+```text
+issue template ──> bounded environment input ──> deterministic policy engine
+                                                    │
+                           issue verdict <───────────┤
+                                                    └──> bypass metadata only
+                                                          │
+                                                          ├──> README leaderboard
+                                                          └──> Pages leaderboard
+
+public GitHub API ──> standard-library generator ──> repository-owned SVGs
+```
+
+### Live repository-owned widgets
+
+<img src="assets/generated/languages.svg" alt="Language breakdown generated from Shreyas's public non-fork repositories" width="760">
+
+<img src="assets/generated/activity.svg" alt="Recent public GitHub activity generated from the GitHub API" width="760">
+
+<img src="assets/generated/projects.svg" alt="Project cards with repository language and last commit date" width="760">
+
+<img src="assets/generated/now-building.svg" alt="Recent public commit messages from Shreyas's repositories" width="760">
+
+These SVGs are generated in this repository. They do not depend on a profile
+card service and use the viewer's light or dark color preference.
+
+</details>
+
+<details>
+<summary><b>I'm a hackathon judge — projects and demos</b></summary>
+
+### support-triage-agent
+
+- **Event:** Elasticsearch Agent Builder hackathon
+- **What was built:** support-triage-agent
+- **Problem:** TODO — add the user and support-triage problem statement.
+- **Approach:** TODO — add the implemented workflow and technical choices.
+- **Guardrails and evaluation:** TODO — add verified test or evaluation details.
+- **Result:** TODO — add placement, prize, or judge feedback only if public and accurate.
+- **Demo:** [Repository](https://github.com/Shreyas652/support-triage-agent)
+
+### Veyra
+
+- **Event:** OpenAI Build Week
+- **What was built:** an MCP server
+- **Problem:** TODO — add the user and research problem statement.
+- **Approach:** TODO — add the implemented tools and data flow.
+- **Guardrails and evaluation:** TODO — add verified test or evaluation details.
+- **Result:** TODO — add placement, prize, or judge feedback only if public and accurate.
+- **Demo:** TODO — add the public repository or demo URL.
+
+### Interactive demos
+
+- [Prompt-Injection Defender](https://shreyas652.github.io/Shreyas652/#defender), a keyboard/touch arcade game
+- [Break My Guardrail](https://github.com/Shreyas652/Shreyas652/issues/new?template=break-my-guardrail.md), an issue-driven deterministic security challenge
+
+</details>
 
 ---
 
-## Hackathons
-
-| | Hackathon | Project |
-|---|---|---|
-| 🏁 | **Elasticsearch Agent Builder** | [support-triage-agent](https://github.com/Shreyas652/support-triage-agent): an AI agent that triages support tickets |
-| 🏁 | **OpenAI Build Week** | Veyra: a working MCP server for evidence-gated financial research, using SEC Companyfacts evidence routing and deterministic calculations |
-
-<!-- TODO(Shreyas): add placement, prize or judge feedback for each hackathon ONLY if it is true. Leaving results out is better than guessing. -->
-
----
-
-## Achievements
-
-| | Achievement | Details |
-|---|---|---|
-| 🦈 | **GitHub Pull Shark** | Earned for merged pull requests |
-| 📜 | **Patent** | Darshan, AI-powered assistive glasses for visually impaired users |
-| 🎓 | **M.S. Information Technology** | Arizona State University |
-
----
-
-## GitHub stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shreyas652&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas652&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas652/Shreyas652/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas652/Shreyas652/output/github-snake.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Shreyas652/Shreyas652/output/github-snake.svg">
-</picture>
-
-</div>
-
----
-
-## 🕹️ Arcade
+## Arcade
 
 ### Prompt-Injection Defender
 
-Move the gateway with the arrow keys (or A and D), block the ✖ injections, and let the ✔ real requests through. Built with plain HTML canvas, no dependencies.
+Move the gateway, block injection cards, and let normal requests pass. The
+Pages version includes keyboard, touch, daily-seeded, and shareable-score modes.
 
 <div align="center">
 
-<a href="https://shreyas652.github.io/Shreyas652/">
-  <img src="assets/defender-preview.svg" alt="Prompt-Injection Defender preview" width="760"/>
+<a href="https://shreyas652.github.io/Shreyas652/#defender">
+  <img src="assets/defender-preview.svg" alt="Prompt-Injection Defender game preview" width="760">
 </a>
 
-<a href="https://shreyas652.github.io/Shreyas652/"><img src="https://img.shields.io/badge/PLAY%20NOW-Prompt--Injection%20Defender-58a6ff?style=for-the-badge&logo=gamedeveloper&logoColor=white" alt="Play now"/></a>
+[**Play Prompt-Injection Defender →**](https://shreyas652.github.io/Shreyas652/#defender)
 
 </div>
 
-### 🎮 Tic-tac-toe against my bot
+### Tic-tac-toe against my bot
 
-Click any empty square. A GitHub Action plays your move, replies with its own, and updates this board in about 30 seconds. You are ❌. Beat the bot and you land on the recent players list.
+Click an empty square. A GitHub Action plays the move, replies, and updates this
+board. You are ❌.
 
 <!--TTT-START-->
 <div align="center">
@@ -170,16 +197,29 @@ Click any empty square. A GitHub Action plays your move, replies with its own, a
 <!--TTT-END-->
 
 <details>
-<summary>How it works</summary>
+<summary>How the issue game works</summary>
 
-Each square is a link that opens a prefilled issue titled `ttt|move|N`. A workflow in `.github/workflows/tictactoe.yml` runs `.github/scripts/game.py`, which validates the move, plays the bot's reply, rewrites this board and commits it. The issue is then commented on and closed. The bot blocks and wins when it can but makes a random move about a quarter of the time, so it can be beaten.
+Each square opens an issue titled `ttt|move|N`. The workflow validates the
+title, plays the bot's move, rewrites only the marked README block, comments,
+and closes the issue. The bot prioritizes wins and blocks but retains a random
+move path so it can be beaten.
 
 </details>
 
 ---
 
-<div align="center">
+## Contribution trail
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="Footer" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas652/Shreyas652/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas652/Shreyas652/output/github-snake.svg">
+  <img alt="Animated contribution trail for Shreyas652" src="https://raw.githubusercontent.com/Shreyas652/Shreyas652/output/github-snake.svg">
+</picture>
 
-</div>
+## Owner-only TODOs
+
+- Add verified results, metrics, placements, prizes, or judge feedback.
+- Add the Darshan patent publication number and confirm the preferred wording.
+- Add a public Veyra repository or demo link, if one is available to share.
+- Add case-study architecture and evaluation details that are safe to publish.
+- Confirm a preferred public contact link.

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270" role="img" aria-label="Terminal: Shreyas Gosavi, Founding AI Engineer at SquareResults. Stack: Python, FastAPI, TypeScript, RAG, MCP, Docker. Building secure, evidence-grounded AI agents.">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270" role="img" aria-label="Terminal: Shreyas Gosavi, Founding AI Engineer at SquareResults. Focus: FastAPI, RAG, multi-agent systems, LLM inference, MCP and prompt-injection security.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -12,22 +12,27 @@
     <clipPath id="c6"><rect x="30" y="218" width="0" height="26"><animate attributeName="width" from="0" to="400" dur="1.4s" begin="7.4s" fill="freeze"/></rect></clipPath>
   </defs>
 
-  <rect x="1" y="1" width="758" height="268" rx="12" fill="url(#bg)" stroke="#30363d"/>
-  <rect x="1" y="1" width="758" height="36" rx="12" fill="#21262d"/>
-  <rect x="1" y="24" width="758" height="13" fill="#21262d"/>
+  <style>
+    .term-bg{fill:#0d1117}.term-top{fill:#21262d}.term-border{stroke:#30363d}.term-muted{fill:#8b949e}.term-text{fill:#e6edf3}
+    @media(prefers-color-scheme:light){.term-bg{fill:#fff}.term-top{fill:#f6f8fa}.term-border{stroke:#d0d7de}.term-muted{fill:#57606a}.term-text{fill:#24292f}}
+  </style>
+
+  <rect class="term-bg term-border" x="1" y="1" width="758" height="268" rx="12" stroke="#30363d"/>
+  <rect class="term-top" x="1" y="1" width="758" height="36" rx="12"/>
+  <rect class="term-top" x="1" y="24" width="758" height="13"/>
   <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
   <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
   <circle cx="64" cy="19" r="6" fill="#27c93f"/>
-  <text x="380" y="24" fill="#8b949e" font-family="'Courier New', Courier, monospace" font-size="13" text-anchor="middle">shreyas@github: ~</text>
+  <text class="term-muted" x="380" y="24" font-family="'Courier New', Courier, monospace" font-size="13" text-anchor="middle">shreyas@github: ~</text>
 
   <g font-family="'Courier New', Courier, monospace" font-size="16">
-    <g clip-path="url(#c1)"><text x="30" y="86" fill="#7ee787">$ <tspan fill="#e6edf3">whoami</tspan></text></g>
+    <g clip-path="url(#c1)"><text x="30" y="86" fill="#7ee787">$ <tspan class="term-text">whoami</tspan></text></g>
     <g clip-path="url(#c2)"><text x="30" y="116" fill="#58a6ff">Shreyas Gosavi | Founding AI Engineer @ SquareResults</text></g>
-    <g clip-path="url(#c3)"><text x="30" y="146" fill="#7ee787">$ <tspan fill="#e6edf3">cat stack.txt</tspan></text></g>
-    <g clip-path="url(#c4)"><text x="30" y="176" fill="#d2a8ff">Python | FastAPI | TypeScript | RAG | MCP | Docker</text></g>
-    <g clip-path="url(#c5)"><text x="30" y="206" fill="#7ee787">$ <tspan fill="#e6edf3">./now --building</tspan></text></g>
-    <g clip-path="url(#c6)"><text x="30" y="236" fill="#ffa657">secure, evidence-grounded AI agents</text></g>
-    <rect x="372" y="222" width="10" height="18" fill="#e6edf3">
+    <g clip-path="url(#c3)"><text x="30" y="146" fill="#7ee787">$ <tspan class="term-text">cat stack.txt</tspan></text></g>
+    <g clip-path="url(#c4)"><text x="30" y="176" fill="#d2a8ff">FastAPI | RAG | multi-agent systems | LLM inference</text></g>
+    <g clip-path="url(#c5)"><text x="30" y="206" fill="#7ee787">$ <tspan class="term-text">./now --building</tspan></text></g>
+    <g clip-path="url(#c6)"><text x="30" y="236" fill="#ffa657">MCP and prompt-injection security</text></g>
+    <rect class="term-text" x="372" y="222" width="10" height="18">
       <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.5001;0.99;1" dur="1s" begin="8.8s" repeatCount="indefinite"/>
     </rect>
   </g>

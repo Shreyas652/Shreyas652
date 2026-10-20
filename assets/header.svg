@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">Shreyas Gosavi — AI systems and security engineering</title>
+  <desc id="desc">A quiet technical header with a graph flowing through retrieval, agents, guardrails, and APIs.</desc>
+  <defs><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#a371f7"/></linearGradient></defs>
+  <style>.bg{fill:#0d1117}.grid{stroke:#21262d}.node{fill:#161b22;stroke:#30363d}.name{fill:#f0f6fc;font:700 42px ui-monospace,SFMono-Regular,Consolas,monospace}.role{fill:#8b949e;font:16px ui-monospace,SFMono-Regular,Consolas,monospace}.label{fill:#c9d1d9;font:12px ui-monospace,SFMono-Regular,Consolas,monospace}@media(prefers-color-scheme:light){.bg{fill:#fff}.grid{stroke:#f0f1f2}.node{fill:#f6f8fa;stroke:#d0d7de}.name{fill:#1f2328}.role{fill:#57606a}.label{fill:#24292f}}</style>
+  <rect class="bg" width="900" height="220" rx="16"/><path class="grid" d="M0 44H900M0 88H900M0 132H900M0 176H900M90 0V220M180 0V220M270 0V220M360 0V220M450 0V220M540 0V220M630 0V220M720 0V220M810 0V220"/>
+  <path d="M555 110H605M675 110H725" stroke="url(#accent)" stroke-width="2" stroke-dasharray="6 5"/><circle cx="540" cy="110" r="8" fill="#58a6ff"/><rect class="node" x="605" y="87" width="70" height="46" rx="8"/><circle cx="740" cy="110" r="8" fill="#a371f7"/>
+  <text class="label" x="640" y="115" text-anchor="middle">policy</text><text class="name" x="42" y="91">Shreyas Gosavi</text><text class="role" x="44" y="128">Founding AI Engineer · Tech Lead of AI</text><text class="role" x="44" y="158">RAG · agents · inference · MCP security · FastAPI</text><text class="label" x="540" y="146" text-anchor="middle">input</text><text class="label" x="740" y="146" text-anchor="middle">decision</text>
+</svg>
