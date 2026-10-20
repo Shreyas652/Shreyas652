@@ -1,0 +1,7 @@
+{
+  "board": ["", "", "", "", "", "", "", "", ""],
+  "over": false,
+  "message": "Your move. You are ❌ and I am ⭕.",
+  "stats": { "you": 0, "bot": 0, "draw": 0 },
+  "recent": []
+}
