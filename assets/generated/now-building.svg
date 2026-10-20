@@ -15,5 +15,5 @@
   <rect class="panel" x="1" y="1" width="758" height="238" rx="11"/>
   <text class="title" x="20" y="30">Now building</text>
   <text class="muted" x="740" y="29" text-anchor="end">recent public commits</text>
-  <text class="muted" x="20" y="72">Refresh pending — run the widget workflow.</text>
+  <text class="muted" x="20" y="72">No recent public push events were returned.</text>
 </svg>
