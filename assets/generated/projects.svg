@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="296" viewBox="0 0 760 296" role="img" aria-labelledby="title desc">
+  <title id="title">Project pulse</title>
+  <desc id="desc">last-commit dates from GitHub</desc>
+  <style>
+    .bg { fill:#0d1117 } .panel { fill:#161b22; stroke:#30363d }
+    .title { fill:#f0f6fc; font:600 17px ui-monospace,SFMono-Regular,Consolas,monospace }
+    .text { fill:#c9d1d9; font:13px ui-monospace,SFMono-Regular,Consolas,monospace }
+    .muted { fill:#8b949e; font:12px ui-monospace,SFMono-Regular,Consolas,monospace }
+    @media (prefers-color-scheme:light) {
+      .bg { fill:#ffffff } .panel { fill:#f6f8fa; stroke:#d0d7de }
+      .title { fill:#1f2328 } .text { fill:#24292f } .muted { fill:#57606a }
+    }
+  </style>
+  <rect class="bg" width="760" height="296" rx="12"/>
+  <rect class="panel" x="1" y="1" width="758" height="294" rx="11"/>
+  <text class="title" x="20" y="30">Project pulse</text>
+  <text class="muted" x="740" y="29" text-anchor="end">last-commit dates from GitHub</text>
+  <rect class="bg" x="20" y="52" width="350" height="98" rx="9"/>
+  <text class="title" x="34" y="78">support-triage-agent</text>
+  <text class="text" x="34" y="104">Refresh pending — run the widget workflow</text>
+  <text class="muted" x="34" y="129">live metadata pending</text>
+  <rect class="bg" x="385" y="52" width="350" height="98" rx="9"/>
+  <text class="title" x="399" y="78">FINVERSE</text>
+  <text class="text" x="399" y="104">Refresh pending — run the widget workflow</text>
+  <text class="muted" x="399" y="129">live metadata pending</text>
+  <rect class="bg" x="20" y="168" width="350" height="98" rx="9"/>
+  <text class="title" x="34" y="194">AI-Drone-Mission-Copliot</text>
+  <text class="text" x="34" y="220">Refresh pending — run the widget workflow</text>
+  <text class="muted" x="34" y="245">live metadata pending</text>
+  <rect class="bg" x="385" y="168" width="350" height="98" rx="9"/>
+  <text class="title" x="399" y="194">Veyra</text>
+  <text class="text" x="399" y="220">Refresh pending — run the widget workflow</text>
+  <text class="muted" x="399" y="245">live metadata pending</text>
+</svg>

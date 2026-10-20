@@ -1,0 +1,12 @@
+{
+  "pending": true,
+  "languages": {},
+  "activity": {},
+  "projects": [
+    {"name": "support-triage-agent", "url": null, "description": null, "language": null, "pushed_at": null},
+    {"name": "FINVERSE", "url": null, "description": null, "language": null, "pushed_at": null},
+    {"name": "AI-Drone-Mission-Copliot", "url": null, "description": null, "language": null, "pushed_at": null},
+    {"name": "Veyra", "url": null, "description": null, "language": null, "pushed_at": null}
+  ],
+  "commits": []
+}

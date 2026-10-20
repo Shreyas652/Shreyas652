@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-20T00:00:00+00:00",
+  "languages": {"Python": 6800, "TypeScript": 2200, "HTML": 700, "Shell": 300},
+  "activity": {"2026-10-20": 3, "2026-10-19": 1, "2026-10-16": 2},
+  "projects": [
+    {"name": "fixture-alpha", "url": "https://example.invalid/alpha", "description": "Synthetic project", "language": "Python", "pushed_at": "2026-10-18T00:00:00Z"},
+    {"name": "fixture-beta", "url": "https://example.invalid/beta", "description": "Synthetic project", "language": "Python", "pushed_at": "2026-10-15T00:00:00Z"},
+    {"name": "fixture-gamma", "url": "https://example.invalid/gamma", "description": "Synthetic project", "language": "Python", "pushed_at": "2026-10-12T00:00:00Z"},
+    {"name": "fixture-delta", "url": null, "description": null, "language": null, "pushed_at": null}
+  ],
+  "commits": [
+    {"repo": "fixture-alpha", "message": "Synthetic commit for renderer tests", "url": "https://example.invalid/alpha/commit/abcdef0", "date": "2026-10-20"}
+  ]
+}
