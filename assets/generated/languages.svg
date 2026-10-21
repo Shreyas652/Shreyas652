@@ -15,17 +15,17 @@
   <rect class="panel" x="1" y="1" width="758" height="218" rx="11"/>
   <text class="title" x="20" y="30">Language footprint</text>
   <text class="muted" x="740" y="29" text-anchor="end">public, non-fork repositories</text>
-  <rect x="20.0" y="52" width="385.8" height="12" fill="#58a6ff"/>
-  <rect x="405.8" y="52" width="138.9" height="12" fill="#a371f7"/>
-  <rect x="544.8" y="52" width="73.5" height="12" fill="#3fb950"/>
-  <rect x="618.2" y="52" width="46.4" height="12" fill="#d29922"/>
-  <rect x="664.7" y="52" width="36.6" height="12" fill="#f85149"/>
+  <rect x="20.0" y="52" width="384.6" height="12" fill="#58a6ff"/>
+  <rect x="404.6" y="52" width="140.8" height="12" fill="#a371f7"/>
+  <rect x="545.5" y="52" width="73.2" height="12" fill="#3fb950"/>
+  <rect x="618.7" y="52" width="46.3" height="12" fill="#d29922"/>
+  <rect x="664.9" y="52" width="36.5" height="12" fill="#f85149"/>
   <circle cx="26" cy="88" r="5" fill="#58a6ff"/>
   <text class="text" x="40" y="92">Python</text>
-  <text class="muted" x="740" y="92" text-anchor="end">53.6%</text>
+  <text class="muted" x="740" y="92" text-anchor="end">53.4%</text>
   <circle cx="26" cy="112" r="5" fill="#a371f7"/>
   <text class="text" x="40" y="116">JavaScript</text>
-  <text class="muted" x="740" y="116" text-anchor="end">19.3%</text>
+  <text class="muted" x="740" y="116" text-anchor="end">19.6%</text>
   <circle cx="26" cy="136" r="5" fill="#3fb950"/>
   <text class="text" x="40" y="140">TypeScript</text>
   <text class="muted" x="740" y="140" text-anchor="end">10.2%</text>
